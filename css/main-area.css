@@ -1,0 +1,853 @@
+/*---------------------------------------------------------------*\
+vision
+\*---------------------------------------------------------------*/
+#vision{
+	width: 100%;
+}
+.vision_wrap{
+	width: 1020px;
+    margin: 80px auto 80px auto;
+}
+.vision_inner{
+}
+
+.vision_inner h2{
+	font-size: 48px;
+	letter-spacing: 0.075em;
+	font-family: 'Francois One', sans-serif;
+	margin-bottom: 40px;
+	position: relative;
+}
+.vision_inner h2:after {
+    border-top: 1px solid #000;
+    content: "";
+    position: absolute;
+	top: 45%;
+    left: 170px;
+    width: 10%;
+}
+.vision_inner h3{
+	font-size: 24px;
+	letter-spacing: 0.075em;
+	font-family: 'Francois One', sans-serif;
+	margin-bottom: 0px;
+	position: relative;
+	line-height: 1;
+}
+.vision_inner .vision_box{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px #ececec solid;
+}
+.vision_box .vision_inner_box{
+	width: 660px;
+	margin:0 auto; 
+}
+.vision_inner div.vision_title01{
+	font-size: 32px;
+	font-weight: bold;
+	letter-spacing: 0.075em;
+    font-family: 'Fugaz One', cursive;
+    margin-bottom: 0px;
+    position: relative;
+    line-height: 1.3;
+    text-align: center;
+}
+.vision_inner p.vision_title02{
+	font-size: 16px;
+	line-height: 200%;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.vision_inner p.vision_cap01{
+	font-size: 16px;
+	line-height: 200%;
+	
+}
+.vision_inner .bal_sign_box{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.vision_inner .val_sign{
+    font-size: 18px;
+    letter-spacing: 0.075em;
+    font-family: 'Francois One', sans-serif;
+    margin-bottom: 20px;
+    position: relative;
+    line-height: 1;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.vision_inner .val_sign_cap{
+	font-size: 14px;
+}
+.vision_inner div.val_num{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.075em;
+    font-family: 'Fugaz One', cursive;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #d9d9d9;
+}
+
+.vision_inner div.val_title01{
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.075em;
+    font-family: 'Fugaz One', cursive;
+    margin-bottom: 0px;
+    position: relative;
+    line-height: 1.3;
+    text-align: center;
+}
+.vision_inner p.val_title02{
+	font-size: 14px;
+	line-height: 200%;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.vision_inner p.val_cap{
+	font-size: 15px;
+	line-height: 200%;
+}
+
+.bal_box ul{
+	letter-spacing: -0.5em;
+}
+
+.bal_box ul li{
+	letter-spacing: normal;
+	margin-bottom: 40px;
+	width: 31%;
+    display: inline-table;
+    margin-left: 3%;
+    border: 1px #000 solid;
+    padding: 30px;
+    min-height: 300px;
+}
+.bal_box ul li:first-child{
+    margin-left: 0%;	
+}
+
+
+/*---------------------------------------------------------------*\
+message
+\*---------------------------------------------------------------*/
+#message{
+	width: 100%;
+}
+.message_wrap{
+	width: 1020px;
+    margin: 80px auto 160px auto;
+}
+.message_inner{
+}
+.message_inner h2{
+	font-size: 48px;
+	letter-spacing: 0.15em;
+	margin-bottom: 40px;
+}
+.message_inner p.title{
+	font-size: 24px;
+	line-height: 200%;
+	font-weight: bold;
+}
+
+
+/*---------------------------------------------------------------*\
+service
+\*---------------------------------------------------------------*/
+
+.sub_ttl_box{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.sub_ttl{
+    font-size: 18px;
+    letter-spacing: 0.075em;
+    font-family: 'Francois One', sans-serif;
+    margin-bottom: 5px;
+    position: relative;
+    line-height: 1;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.sub_ttl02{
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.sub_ttl_cap{
+	font-size: 14px;
+}
+.sub_ttl_cap strong{
+	display: block;
+}
+#service{
+	width: 100%;
+}
+.service_wrap{
+	width: 1020px;
+    margin: 0px auto 160px auto;
+}
+.service_inner{
+}
+.service_inner h2{
+	font-size: 48px;
+	letter-spacing: 0.075em;
+	font-family: 'Francois One', sans-serif;
+	margin-bottom: 40px;
+	position: relative;
+}
+.service_inner h2:after {
+    border-top: 1px solid #000;
+    content: "";
+    position: absolute;
+	top: 45%;
+    left: 200px;
+    width: 10%;
+}
+.service_inner ul{
+	letter-spacing: -0.5em;
+}
+.service_inner li{
+    letter-spacing: normal;
+    display: inline-table;
+    vertical-align: baseline;
+    background: #fff;
+    padding: 0px;
+    width: 48%;
+    margin-right: 4%;
+}
+
+
+.service_inner li p{
+	font-size: 15px;
+    line-height: 165%;
+}
+.service_inner li:last-child{
+	margin-right: 0px;	
+}
+.service_inner li h3{
+	font-size:18px;
+	line-height: 1.5;
+	margin-bottom: 15px;
+    font-weight: 600;
+    float: left;
+}
+.service_inner .btn_wrap{
+	float: right;
+}
+.service_inner .btn_wrap02{
+	text-align: center;
+}
+.service_inner li div.service_img{
+	margin:0 auto 10px auto;
+}
+.service_inner li img{
+	width: 100%;
+}
+.service_inner li:first-child img{
+
+}
+.service_inner li:nth-child(2) img{
+}
+
+.service_inner .list_adjust{
+	margin-bottom: 40px;
+}
+/*---------------------------------------------------------------*\
+company
+\*---------------------------------------------------------------*/
+
+#company{
+	width: 100%;
+}
+.company_wrap{
+	width: 1020px;
+    margin: 80px auto 160px auto;
+}
+.company_inner{
+}
+.company_inner h2{
+	font-size: 48px;
+	letter-spacing: 0.075em;
+	font-family: 'Francois One', sans-serif;
+	margin-bottom: 40px;
+	position: relative;
+}
+.company_inner h2:after {
+    border-top: 1px solid #000;
+    content: "";
+    position: absolute;
+	top: 45%;
+    left: 230px;
+    width: 10%;
+}
+.company_inner table{
+	font-size: 20px;
+	font-weight: bold;
+	width: 100%;
+}
+.company_inner table tr{
+	border-bottom: 1px #d9d9d9 solid;
+}
+.company_inner table th,
+.company_inner table td{
+	padding: 25px 0px 20px 0px;
+	font-size: 15px;
+	font-weight: normal;
+}
+.company_inner table th{
+	width:20%; 
+	font-weight: bold;
+}
+.company_inner table td{
+	
+}
+
+/*---------------------------------------------------------------*\
+team
+\*---------------------------------------------------------------*/
+
+#team{
+	width: 100%;
+}
+.team_wrap{
+	width: 1020px;
+    margin: 80px auto 160px auto;
+}
+.team_inner{
+	text-align: left;
+}
+.team_inner h2{
+	font-size: 48px;
+	letter-spacing: 0.075em;
+	font-family: 'Francois One', sans-serif;
+	margin-bottom: 40px;
+	position: relative;
+}
+.team_inner h2:after {
+    border-top: 1px solid #000;
+    content: "";
+    position: absolute;
+	top: 45%;
+    left: 135px;
+    width: 10%;
+}
+.team_inner ul{
+	margin:0;
+	padding: 0;
+	letter-spacing: -0.5em;
+}
+.team_inner li{
+	margin:0 50px 0 0;
+	padding: 0;
+	letter-spacing: normal; 
+	width: 164px;
+	display: inline-block;
+}
+.team_inner li:last-child{
+	margin:0 0 0 0;
+}
+.team_inner li img{
+	width: 100%;
+	display: block;
+	margin-bottom: 15px;
+}
+.team_inner span{
+	color: #a6a6a6;
+	font-size: 10px;
+	display: block;
+	margin-bottom: 0px;
+	font-weight: normal;
+}
+.team_inner p{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+}
+.team_wrap{
+	text-align: center;
+    margin-top: 10px;
+}
+
+
+/*---------------------------------------------------------------*\
+recruit
+\*---------------------------------------------------------------*/
+
+#recruit{
+	width: 100%;
+}
+.recruit_wrap{
+	width: 1020px;
+    margin: 80px auto 160px auto;
+}
+.recruit_inner{
+}
+.recruit_inner h2{
+	font-size: 48px;
+	letter-spacing: 0.075em;
+	font-family: 'Francois One', sans-serif;
+	margin-bottom: 40px;
+	position: relative;
+}
+.recruit_inner h2:after {
+    border-top: 1px solid #000;
+    content: "";
+    position: absolute;
+	top: 45%;
+    left: 205px;
+    width: 10%;
+}
+.recruit_inner p{
+    font-size: 16px;
+    font-weight: normal;
+	margin-bottom: 50px;
+}
+.recruit_inner h3{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.recruit_inner ul{
+	margin:0;
+	padding: 0;
+	letter-spacing: -0.5em;
+}
+.recruit_inner li{
+	width: 450px;
+	margin:0 20px 20px 0;
+	padding: 0;
+	letter-spacing: normal; 
+	display: inline-block;
+}
+.recruit_inner li:nth-child(2n){
+	margin: 0 0 20px 0;
+}
+.recruit_inner li:last-child{
+	margin:0 0 0 0;
+}
+
+/* 181015_一時追加 https://github.com/NiCOLA-inc/corporate-site-2018/commit/bbc16f9b40dfa1f78b9fa44d2b993c88c6ee4378 */
+/*
+.recruit_inner li{
+	width: 100%;
+    margin: 0 0 20px 0;
+    padding: 10px 30px 10px 10px !important;
+    font-size: 20px;
+    display: inline-block;
+    background: #ffffff;
+    color: #000;
+	text-align: left;
+    font-weight: bold;
+    border: 1px #000 solid;
+    position: relative;
+}
+*/
+/*---------------------------------------------------------------*\
+contact
+\*---------------------------------------------------------------*/
+#contact{
+	width: 100%;
+}
+.contact_wrap{
+	width: 1020px;
+    margin: 80px auto 160px auto;
+}
+.contact_inner{
+	width: 560px;
+}
+.contact_inner h2{
+	font-size: 48px;
+	letter-spacing: 0.075em;
+	font-family: 'Francois One', sans-serif;
+	margin-bottom: 40px;
+	position: relative;
+}
+.contact_inner h2:after {
+    border-top: 1px solid #000;
+    content: "";
+    position: absolute;
+	top: 45%;
+    left: 215px;
+    width: 10%;
+}
+
+.contact_wrap .form_wrap label{
+	font-size: 15px;
+    font-weight: normal;
+}
+.contact_wrap .form_wrap .must{
+    color: #fff;
+    background-color: #dc3545;
+    margin-left: 10px;
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+.contact_wrap .form_wrap input{
+	width: 100%;
+    margin-bottom: 40px;
+	display: block;
+    width: 100%;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background: #eaeaea;
+    border: 1px #eaeaea solid;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-size: 16px;
+}
+.contact_wrap .form_wrap textarea{
+	width: 100%;
+    margin-bottom: 40px;
+	display: block;
+    width: 100%;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background: #eaeaea;
+    border: 1px #eaeaea solid;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-size: 16px;
+}
+.contact_wrap .form_wrap input#inquiry{
+}
+.contact_wrap .form_wrap button{
+    width: 300px;
+    width: 100%;
+    margin: auto 0;
+    padding: 10px 30px 10px 10px;
+    font-size: 18px;
+    display: inline-block;
+    background: #ffffff;
+    color: #000;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    font-weight: bold;
+    border: 1px #000 solid;
+    position: relative;
+}
+
+.contact_wrap .form_wrap button:before{
+	content: "送信";
+	color: #000;
+}
+.contact_wrap .form_wrap .conversion{
+	margin-top: 60px;
+	text-align: center;
+}
+
+
+
+/*---------------------------------------------------------------*\
+$1020px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 1020px) {
+
+.vision_wrap,
+.service_wrap,
+.company_wrap,
+.service_wrap,
+.team_wrap,
+.recruit_wrap,
+.contact_wrap{
+    width: 100%;
+    padding: 0 20px;
+}
+
+
+
+}
+
+/*---------------------------------------------------------------*\
+$768px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+
+.vision_wrap{
+	margin: 40px auto;
+}
+.vision_box .vision_inner_box{
+	width: 90%;
+}
+.vision_inner div.val_num{
+    font-size: 16px;
+}
+.vision_inner div.vision_title01{
+	font-size: 24px;
+}
+.vision_inner p.vision_title02 {
+	font-size: 12px;
+}
+.vision_inner p.vision_cap01 {
+    font-size: 13px;
+}
+.vision_inner .vision_box{
+    padding-bottom: 25px;
+    margin-bottom: 25px;	
+}
+.vision_inner .val_sign_cap {
+    font-size: 12px;
+    text-align: left;
+}
+.message_inner h2 {
+    font-size: 36px;
+    letter-spacing: 0.15em;
+    margin-bottom: 40px;
+}
+.message_inner p {
+    font-size: 18px;
+    line-height: 175%;
+    font-weight: bold;
+}
+.service_inner h2,
+.recruit_inner h2,
+.team_inner h2,
+.company_inner h2,
+.contact_inner h2{
+	margin-bottom: 20px;
+}
+
+
+.message_wrap {
+    margin: 40px auto 50px auto;
+}
+.service_wrap {
+    margin: 0px auto 50px auto;
+}
+.company_wrap {
+    margin: 20px auto 50px auto;
+}
+.team_wrap {
+    margin: 20px auto 50px auto;
+}
+.recruit_wrap {
+    margin: 20px auto 50px auto;
+}
+.contact_wrap {
+    margin: 20px auto 50px auto;
+}
+.service_inner li{
+}
+.service_inner li:last-child{
+	margin-bottom: 0px;	
+	/*border-top: 1px #b9b9b9 dotted;*/
+}
+.service_inner .list_adjust{
+	margin-bottom: 20px;
+}
+.recruit_inner li {
+    width: 100%;
+    margin: 0 0px 20px 0;
+    padding: 0;
+    letter-spacing: normal;
+    display: block;
+}
+
+.company_inner table th,
+.company_inner table td {
+    padding: 25px 5px 20px 5px;
+    
+}
+
+.company_inner table th {
+    font-size: 12px;
+    width: 40%;
+    font-weight: bold;
+}
+
+.company_inner table td {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.team_inner li{
+	margin: 0 20px 20px 0;
+}
+.contact_inner {
+    width: 100%;
+}
+.sub_ttl_cap {
+    font-size: 12px;
+    text-align: left;
+}
+
+.sub_ttl_cap strong{
+	text-align: center;
+}
+
+.sub_ttl_box{
+	margin-bottom: 20px;
+}
+.vision_inner .val_sign,
+.sub_ttl{
+	font-size: 13px;
+}
+.sub_ttl02 {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.vision_inner div.val_title01{
+	font-size: 20px;
+}
+.vision_inner p.val_title02 {
+	font-size: 12px;
+}
+.vision_inner p.val_cap {
+    font-size: 12px;
+}
+
+.bal_box ul li{
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 15px;
+	margin-left: 0%;
+	display: block;
+	min-height: auto;
+}
+
+.bal_box ul li:last-child{
+	margin-bottom: 0px;
+}
+
+.service_inner li h3{
+	font-size: 13px;
+    margin-bottom: 5px;
+}
+.service_inner li p {
+    font-size: 11px;
+    line-height: 165%;
+    margin-bottom: 10px;
+}
+.recruit_inner p{
+    font-size: 12px;
+    margin-bottom: 20px;	
+}
+.recruit_inner h3 {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+}
+/*---------------------------------------------------------------*\
+$480px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+
+.message_inner h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.message_inner p {
+    font-size: 15px;
+}
+.vision_inner h2,
+.service_inner h2,
+.recruit_inner h2,
+.team_inner h2,
+.company_inner h2,
+.contact_inner h2{
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+.team_inner h2:after {
+	left: 100px;
+}
+.recruit_inner h2:after,
+.service_inner h2:after {
+	left: 150px;
+}
+.vision_inner h2:after{
+	left: 120px;
+}
+.service_inner h2:after {
+	left: 145px;
+}
+.contact_inner h2:after {
+	left: 160px;
+}
+.company_inner h2:after {
+	left: 170px;
+}
+
+
+.service_inner li div.service_img{
+}
+
+
+.team_inner p {
+    font-size: 14px;
+}
+.team_inner span {
+    font-size: 9px;	
+}
+.team_inner li {
+    margin: 0 10px 20px 0;
+    width: 122px;
+}
+
+.contact_wrap .form_wrap label{
+    font-size: 13px;
+    font-weight: normal;
+}
+.contact_wrap .form_wrap input{
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.contact_wrap .form_wrap button{
+	font-size: 14px;
+}
+
+.footer_wrap ul li a {
+    font-size: 16px;
+}
+
+.footer_wrap p {
+    font-size: 12px;
+}
+
+
+}
+
+/*---------------------------------------------------------------*\
+$320px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 320px) {
+
+}
+
+
+
+

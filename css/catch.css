@@ -1,0 +1,304 @@
+.main_contents{
+    position: relative;
+}
+.catch_wrap{
+    position: relative;
+    width: 100vw;
+    height: 100vh;   
+}
+
+.catch{
+    height: -webkit-fill-available;
+    width: 100%;
+    background-image: url("../img/catch_bg03.png");
+    background-position: 50% 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #444;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-size: cover;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+}
+
+.catch_inner_wrap {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    margin: 5% 0 0 -25%;
+    padding: 0;
+    -webkit-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+    color: #444;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-size: cover;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+.scroll_transition {
+}
+.scroll_transition::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+}
+
+.scroll_transition a {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);s
+  transform: translate(0, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.scroll_transition a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
+.scroll_transition a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+.scroll_transition a span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 7px;
+  height: 7px;
+  margin: -5px 0 0 -2px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  box-sizing: border-box;
+}
+
+.scroll_transition a {
+  padding-top: 50px;
+}
+.scroll_transition a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+
+.scroll_transition a span::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  content: '';
+  width: 44px;
+  height: 44px;
+  box-shadow: 0 0 0 0 rgba(255,255,255,.5);
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-animation: sdb 2s infinite;
+  animation: sdb 2s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255,255,255,.5);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255,255,255,.5);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.scroll_transition  {
+  padding-top: 60px;
+}
+.scroll_transition a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb 2s infinite;
+  animation: sdb 2s infinite;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,.2);
+  box-shadow: -2px 3px 3px rgba(0,0,0,0.05);
+}
+@-webkit-keyframes sdb {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+}
+@keyframes sdb {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+}
+
+.none_scroll{
+    display: none;
+}
+
+
+/*---------------------------------------------------------------*\
+$1500px
+\*---------------------------------------------------------------*/
+@media screen and (max-width: 1500px) {
+
+}
+/*---------------------------------------------------------------*\
+$1280px
+\*---------------------------------------------------------------*/
+@media screen and (max-width: 1280px) {
+
+.catch{
+}
+
+}
+/*---------------------------------------------------------------*\
+$1020px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 1020px) {
+
+
+
+
+
+}
+/*---------------------------------------------------------------*\
+$960px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 960px) {
+
+}
+/*---------------------------------------------------------------*\
+$768px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+
+ .catch{
+    background-image: url("../img/catch_bg02.png");
+}
+
+}
+/*---------------------------------------------------------------*\
+$480px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+ 
+
+
+}
+
+/*---------------------------------------------------------------*\
+$400px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 400px) {
+ 
+
+
+}
+
+/*---------------------------------------------------------------*\
+$320px
+\*---------------------------------------------------------------*/
+
+@media screen and (max-width: 320px) {
+ 
+
+
+}
